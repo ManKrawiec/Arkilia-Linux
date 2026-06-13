@@ -1,0 +1,71 @@
+name: Claude Issue Review
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  review:
+    if: contains(github.event.comment.body, '@claude')
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Review issue with Claude
+        uses: actions/github-script@v7
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        with:
+          script: |
+            const issue = await github.rest.issues.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number
+            });
+
+            const comments = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              per_page: 50
+            });
+
+            const commentHistory = comments.data
+              .map(c => `${c.user.login}: ${c.body}`)
+              .join('\n\n---\n\n');
+
+            const prompt = `You are reviewing a GitHub issue for Arkilia Linux, an Arch-based Hyprland distribution aimed at intermediate to advanced Linux users.
+
+Issue Title: ${issue.data.title}
+
+Issue Body:
+${issue.data.body || '(no description)'}
+
+Comment history:
+${commentHistory}
+
+The user tagged @claude in a comment requesting your review. Provide a helpful, concise response.`;
+
+            const response = await fetch('https://api.anthropic.com/v1/messages', {
+              method: 'POST',
+              headers: {
+                'x-api-key': process.env.ANTHROPIC_API_KEY,
+                'anthropic-version': '2023-06-01',
+                'content-type': 'application/json'
+              },
+              body: JSON.stringify({
+                model: 'claude-sonnet-4-6',
+                max_tokens: 1024,
+                messages: [{ role: 'user', content: prompt }]
+              })
+            });
+
+            const data = await response.json();
+            const text = data.content[0].text;
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `**Claude:** ${text}`
+            });
