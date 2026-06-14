@@ -1,0 +1,26 @@
+# archiso build output
+out/
+work/
+*.iso
+*.img
+*.sig
+*.sha256
+*.sha512
+
+# logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# editor and OS metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# local test artifacts
+qemu.log
+*.qcow2
+*.raw
