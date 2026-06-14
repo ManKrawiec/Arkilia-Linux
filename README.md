@@ -8,6 +8,7 @@
   <a href="https://github.com/ManKrawiec/Arkilia-Linux"><img alt="Repository" src="https://img.shields.io/badge/repo-Arkilia--Linux-24292f?style=for-the-badge&logo=github"></a>
   <img alt="Base" src="https://img.shields.io/badge/base-Arch%20Linux-1793d1?style=for-the-badge&logo=archlinux&logoColor=white">
   <img alt="Status" src="https://img.shields.io/badge/status-WIP-f5a524?style=for-the-badge">
+  <img alt="License" src="https://img.shields.io/badge/license-GPL--3.0--or--later-2ea44f?style=for-the-badge">
 </p>
 
 ---
@@ -25,6 +26,7 @@ The project is not trying to be a universal distribution for everyone. It is a c
 | Display manager | SDDM |
 | Live user | `arkilia` |
 | Live password | `arkilia` |
+| License | GPL-3.0-or-later |
 | Repository | https://github.com/ManKrawiec/Arkilia-Linux |
 | Issues | https://github.com/ManKrawiec/Arkilia-Linux/issues |
 
@@ -76,11 +78,21 @@ The generated ISO will be placed in the default archiso output directory for thi
 | `syslinux/` | BIOS boot menu configuration |
 | `efiboot/` | systemd-boot entries for UEFI |
 
+## Community
+
+- See [CONTRIBUTING.md](CONTRIBUTING.md) before opening pull requests or larger issues.
+- See [CHANGELOG.md](CHANGELOG.md) for notable project changes.
+- See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for the basic community rules.
+
 ## Notes
 
 - The default live password is public and intended only for the live ISO environment.
 - Root still exists in the live system, but autologin is configured for the `arkilia` user.
 - The system is experimental, so review changes before using it on important machines.
+
+## License
+
+Arkilia Linux is licensed under the GNU General Public License v3.0 or later. See [LICENSE](LICENSE) for the full license text.
 
 ---
 
