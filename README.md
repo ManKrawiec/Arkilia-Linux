@@ -22,8 +22,8 @@ The project is not trying to be a universal distribution for everyone. It is a c
 | Area | Details |
 | --- | --- |
 | Base | Arch Linux / archiso |
-| Desktop | Hyprland |
-| Display manager | SDDM |
+| Desktop | GNOME |
+| Display manager | GDM |
 | Live user | `arkilia` |
 | Live password | `arkilia` |
 | License | GPL-3.0-or-later |
