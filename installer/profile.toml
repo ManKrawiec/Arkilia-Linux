@@ -1,0 +1,13 @@
+name = "Arkilia Linux"
+base = "archiso"
+target_packages = "packages.target.x86_64"
+installer = "planned"
+
+[live]
+user = "arkilia"
+desktop = "plasma"
+display_manager = "sddm"
+
+[network]
+manager = "NetworkManager"
+dns = "systemd-resolved"

@@ -128,5 +128,21 @@ xl2tpd
 zsh
 
 #our packages
+ark
+dolphin
+firefox
+kate
+kdesu
+konsole
+networkmanager
+os-prober
+pipewire
+pipewire-pulse
 plasma-desktop
+plasma-nm
+plasma-pa
+polkit-kde-agent
+pavucontrol
 sddm
+spectacle
+wireplumber

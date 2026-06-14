@@ -2,6 +2,7 @@
 
 <p align="center">
   <strong>A personal Arch-based live system, tuned for a clean desktop experience.</strong>
+<br><strong>This project is a playground for experimenting with Arch Linux live environments.</strong>
 </p>
 
 <p align="center">
@@ -24,6 +25,7 @@ The project is not trying to be a universal distribution for everyone. It is a c
 | Base | Arch Linux / archiso |
 | Desktop | KDE Plasma profile packages |
 | Display manager | SDDM |
+| Network | NetworkManager with Plasma integration |
 | Live user | `arkilia` |
 | Live password | `arkilia` |
 | License | GPL-3.0-or-later |
@@ -74,9 +76,25 @@ The generated ISO will be placed in the default archiso output directory for thi
 | `packages.x86_64` | Package list included in the ISO |
 | `profiledef.sh` | Main archiso profile configuration |
 | `airootfs/` | Files copied into the live system root |
+| `installer/` | Preparation files for the future graphical installer |
+| `scripts/` | Local validation and helper scripts |
 | `grub/` | GRUB boot menu configuration |
 | `syslinux/` | BIOS boot menu configuration |
 | `efiboot/` | systemd-boot entries for UEFI |
+
+## Installer Preparation
+
+Arkilia Linux does not ship a graphical installer yet. The repository includes an `installer/` staging area so the future installer can be added without mixing live ISO packages with the installed-system package set.
+
+The current target package list lives in [installer/packages.target.x86_64](installer/packages.target.x86_64).
+
+## Validation
+
+Run the local profile checks before committing ISO profile changes:
+
+```bash
+./scripts/check-profile.sh
+```
 
 ## Community
 
