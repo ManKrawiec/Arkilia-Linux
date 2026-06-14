@@ -22,7 +22,7 @@ The project is not trying to be a universal distribution for everyone. It is a c
 | Area | Details |
 | --- | --- |
 | Base | Arch Linux / archiso |
-| Desktop | KDE Plasma profile packages |
+| Desktop | Hyprland |
 | Display manager | SDDM |
 | Live user | `arkilia` |
 | Live password | `arkilia` |
