@@ -30,3 +30,5 @@ All additional software must be private enough.
 This is a hobby project/experiment.
 Mistakes will appear.
 This distribution will not be fully private. It only bundles software which is private, and doesnt contain software which isn't optimal for the assigned goal.
+
+Feel free to add suggestions on software or features in https://github.com/ManKrawiec/Arkilia-Linux/issues
