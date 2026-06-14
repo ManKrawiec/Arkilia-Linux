@@ -126,5 +126,7 @@ xdg-utils
 xfsprogs
 xl2tpd
 zsh
+
+#our packages
 plasma-desktop
 sddm
