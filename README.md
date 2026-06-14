@@ -16,4 +16,6 @@ An Arch based Privacy focused linux distribution that actually works for daily u
 ---
 
 Doesn't push unreasonable privacy levels as other distros, stays within your comfort zone.
-Included software (except for gnome and system programs) Librewolf, TOR Browser (IN THE FUTURE, INCLUDED VIA torbrowser-launcher)
+
+
+|Included software (except for gnome and system programs)| |Librewolf| |TOR Browser (IN THE FUTURE, INCLUDED VIA torbrowser-launcher)|
