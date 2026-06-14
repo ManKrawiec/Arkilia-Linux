@@ -127,6 +127,6 @@ xfsprogs
 xl2tpd
 zsh
 
-#our packages
+//Custom packages
 plasma-desktop
 sddm
