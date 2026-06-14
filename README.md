@@ -1,7 +1,7 @@
 # Arkilia Linux
-An Arch based Privacy focused linux distribution that actually works for daily use.
+An Arch based privacy focused linux distribution that actually works for daily use, and doesn't push unreasonable privacy levels as other distros, stays within your comfort zone.
 <p align="center">
-  <strong>.</strong>
+  <strong></strong>
 </p>
 
 <p align="center">
@@ -15,7 +15,19 @@ An Arch based Privacy focused linux distribution that actually works for daily u
 
 ---
 
-Doesn't push unreasonable privacy levels as other distros, stays within your comfort zone.
+| Area | Details |
+| --- | --- |
+| Included software | Most of gnomes default software, LibreWolf, TOR Browser (via torbrowser-launcher) |
+| Privacy features | Drive encryption by default, Privacy safe software |
+| Desktop environment | GNOME |
+| Display manager | GDM |
+
+# Goals
+Make a privacy focused distro suitable for daily use.
+All additional software must be private enough.
 
 
-|Included software (except for gnome and system programs)| |Librewolf| |TOR Browser (IN THE FUTURE, INCLUDED VIA torbrowser-launcher)|
+# Disclaimer
+This is a hobby project/experiment.
+Mistakes will appear.
+This distribution will not be fully private. It only bundles software which is private, and doesnt contain software which isn't optimal for the assigned goal.
