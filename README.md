@@ -15,7 +15,7 @@ An Arch based lightweight linux distro paired with the right software someone wi
 
 | Area | Details |
 | --- | --- |
-| Included software | Most of gnomes default software, LibreWolf, TOR Browser (via torbrowser-launcher) |
+| Included software | Not known yet. Announced in the future |
 | Features | Drive encryption by default, Graphical installer, Preconfigured plasma |
 | Desktop environment | KDE Plasma |
 | Display manager | SDDM |
