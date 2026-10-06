@@ -127,11 +127,30 @@ xfsprogs
 xl2tpd
 zsh
 
-//Custom packages
+#Added packages
+
+#Desktop
 plasma-desktop
 sddm
-kitty
-libreoffice-still
-firefox
+
+#Basic Software
 dolphin
+konsole
+
+#Office Suite
+libreoffice-still
+
+#Internet
+firefox
 thunderbird
+
+#Development
+code
+
+#Audio
+pipewire
+pipewire-alsa
+pipewire-jack
+
+#Bluetooth
+bluez
