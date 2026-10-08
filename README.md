@@ -20,13 +20,11 @@ An Arch based lightweight linux distro paired with the right software someone wi
 | Display manager | SDDM |
 
 # Goals
-Make a privacy focused distro suitable for daily use.
-All additional software must be private enough.
-
+Make a distro that works out of the box and doesnt need additional fixes.
 
 # Disclaimer
 This is a hobby project/experiment.
-Mistakes will appear.
+Mistakes will appear.D
 This distribution will not be fully private. It only bundles software which is private, and doesnt contain software which isn't optimal for the assigned goal.
 
 Feel free to add suggestions on software or features in https://github.com/ManKrawiec/Arkilia-Linux/issues

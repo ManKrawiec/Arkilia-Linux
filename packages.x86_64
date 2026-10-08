@@ -154,3 +154,8 @@ pipewire-jack
 
 #Bluetooth
 bluez
+
+#Display/Graphics
+mesa
+vulkan-intel
+vulkan-radeon
