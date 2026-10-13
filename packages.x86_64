@@ -131,7 +131,9 @@ zsh
 
 #Desktop
 plasma-desktop
-sddm
+plasma-login-manager
+xdg-desktop-portal-kde
+kscreen
 
 #Basic Software
 dolphin
@@ -143,6 +145,8 @@ libreoffice-still
 #Internet
 firefox
 thunderbird
+networkmanager
+plasma-nm
 
 #Development
 code
@@ -151,11 +155,15 @@ code
 pipewire
 pipewire-alsa
 pipewire-jack
+wireplumber
+plasma-pa
 
 #Bluetooth
 bluez
+bluedevil
 
 #Display/Graphics
 mesa
 vulkan-intel
 vulkan-radeon
+
