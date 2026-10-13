@@ -1,5 +1,5 @@
 # Arkilia Linux
-An Arch based lightweight linux distro paired with the right software someone will use.
+An Arch based lightweight linux distro paired with the right software.
   <strong></strong>
 </p>
 
@@ -15,7 +15,7 @@ An Arch based lightweight linux distro paired with the right software someone wi
 
 | Area | Details |
 | --- | --- |
-| Included software | Not known yet. Announced in the future |
+| Included software | Firefox, Libreoffice Suite, thunderbird and more |
 | Desktop environment | KDE Plasma |
 | Display manager | SDDM |
 
@@ -24,7 +24,6 @@ Make a distro that works out of the box and doesnt need additional fixes.
 
 # Disclaimer
 This is a hobby project/experiment.
-Mistakes will appear.D
-This distribution will not be fully private. It only bundles software which is private, and doesnt contain software which isn't optimal for the assigned goal.
+Mistakes will appear.
 
 Feel free to add suggestions on software or features in https://github.com/ManKrawiec/Arkilia-Linux/issues
