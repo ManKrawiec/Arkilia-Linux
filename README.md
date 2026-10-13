@@ -11,16 +11,7 @@ An Arch based lightweight linux distro paired with the right software.
   <img alt="License" src="https://img.shields.io/badge/license-GPL--3.0--or--later-2ea44f?style=for-the-badge">
 </p>
 
----
 
-| Area | Details |
-| --- | --- |
-| Included software | Firefox, Libreoffice Suite, thunderbird and more |
-| Desktop environment | KDE Plasma |
-| Display manager | SDDM |
-
-# Goals
-Make a distro that works out of the box and doesnt need additional fixes.
 
 # Disclaimer
 This is a hobby project/experiment.

@@ -167,3 +167,8 @@ mesa
 vulkan-intel
 vulkan-radeon
 
+#Power
+power-profiles-daemon
+
+#Installer
+calamares
